@@ -32,7 +32,7 @@ const io = new Server(server, {
 
 // Middleware
 app.use(cors({
-  origin: "https://minijobb.netlify.app/",
+  origin: "https://minijobb.netlify.app",
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
